@@ -1,9 +1,12 @@
-# Addition of two numbers
+# Addition of Two Numbers.
 
-> In addition of two numbers, there may be two cases arise:
+  In addition of two numbers, there may be two cases arise:
   1. carry is generated.
   2. carry is not generated.
-  Here we are taking two numbers at the memory location 2050H and 2051H and storing the result at the memory location 2055H and 2056H.
+> Here we are taking two numbers at the memory location 2050H and 2051H and storing the result at the memory location 2055H and 2056H.
+
+
+
 
 | **Size** | **Label** | **Instructions** | **Hex code** | **Addresses** |
 | ----------- | ----------- | ----------- | ----------- | ---------- |
