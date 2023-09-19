@@ -1,6 +1,9 @@
 # Addition of two numbers
 
-## addition of two numbers if carry is generated
+> In addition of two numbers, there may be two cases arise:
+  1. carry is generated.
+  2. carry is not generated.
+  Here we are taking two numbers at the memory location 2050H and 2051H and storing the result at the memory location 2055H and 2056H.
 
 | **Size** | **Label** | **Instructions** | **Hex code** | **Addresses** |
 | ----------- | ----------- | ----------- | ----------- | ---------- |
@@ -15,5 +18,4 @@
 | 1 |  | MOV A, C | 79 | 2011 |
 | 3 |  | STA 2056H | 32, 56, 20 | 2012 |
 | 1 |  | HLT | 76 | 2015 |
-| -- |
-| 22 |
+| ***22 bytes***|
